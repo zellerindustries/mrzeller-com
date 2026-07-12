@@ -1,0 +1,50 @@
+@font-face {
+  font-display: block;
+  font-family: "bootstrap-icons";
+  src:
+    url("../../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2")
+      format("woff2"),
+    url("../../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff")
+      format("woff");
+}
+
+[class*="icon"]::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -0.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon.cone-striped::before {
+  content: "\F2D2";
+}
+
+.icon.journal-text::before {
+  content: "\F444";
+}
+
+.icon.globe::before {
+  content: "\F3EE";
+}
+
+.icon.terminal::before {
+  content: "\F5C3";
+}
+
+.icon.code-slash::before {
+  content: "\F2C6";
+}
+
+.icon.instagram::before {
+  content: "\F437";
+}
+
+.icon.twitch::before {
+  content: "\F5EE";
+}
