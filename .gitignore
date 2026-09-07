@@ -1,2 +1,12 @@
 dist/
+todo/
+dev/
 node_modules/
+
+.vscode
+
+.claude
+
+.DS_Store
+Thumbs.db
+desktop.ini

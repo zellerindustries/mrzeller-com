@@ -1,14 +1,12 @@
 @font-face {
   font-display: block;
-  font-family: "bootstrap-icons";
+  font-family: 'bootstrap-icons';
   src:
-    url("../../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2")
-      format("woff2"),
-    url("../../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff")
-      format("woff");
+    url('../../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2') format('woff2'),
+    url('../../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff') format('woff');
 }
 
-[class*="icon"]::before {
+[class*='icon']::before {
   display: inline-block;
   font-family: bootstrap-icons !important;
   font-style: normal;
@@ -22,29 +20,29 @@
 }
 
 .icon.cone-striped::before {
-  content: "\F2D2";
+  content: '\F2D2';
 }
 
 .icon.journal-text::before {
-  content: "\F444";
+  content: '\F444';
 }
 
 .icon.globe::before {
-  content: "\F3EE";
+  content: '\F3EE';
 }
 
 .icon.terminal::before {
-  content: "\F5C3";
+  content: '\F5C3';
 }
 
 .icon.code-slash::before {
-  content: "\F2C6";
+  content: '\F2C6';
 }
 
 .icon.instagram::before {
-  content: "\F437";
+  content: '\F437';
 }
 
 .icon.twitch::before {
-  content: "\F5EE";
+  content: '\F5EE';
 }
