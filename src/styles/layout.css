@@ -1,0 +1,12 @@
+body > div {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+main {
+  display: block;
+}
+
+section {
+  margin-bottom: 2rem;
+}

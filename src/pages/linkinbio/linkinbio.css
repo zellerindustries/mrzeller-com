@@ -1,0 +1,72 @@
+header .avatar-container {
+  width: 96px;
+  height: 96px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem auto;
+
+  background-color: transparent;
+}
+
+header .avatar-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.social {
+  margin-top: 2.5rem;
+}
+
+.social ul {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social li {
+  margin-bottom: 0;
+}
+
+.social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1.5rem;
+  min-height: auto;
+  width: auto;
+  flex: initial;
+  border-radius: var(--radius-pill);
+  box-shadow: none;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.social a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.social a > :first-child {
+  position: static !important;
+  transform: none !important;
+  margin-right: 0.5rem !important;
+  width: auto !important;
+  height: auto !important;
+  font-size: 1.1rem;
+}
+
+.social a:hover > :first-child {
+  transform: none !important;
+}
+
+.social a::after {
+  content: none;
+}

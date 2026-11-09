@@ -1,0 +1,15 @@
+header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+header p {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  font-weight: 400;
+  opacity: 0.85;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
