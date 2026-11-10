@@ -5,8 +5,11 @@ node_modules/
 
 .vscode
 
-.claude
+.claude/superpowers/
+.claude/worktrees/
 
 .DS_Store
 Thumbs.db
 desktop.ini
+
+.dev
