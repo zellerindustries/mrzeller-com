@@ -12,7 +12,7 @@ npm run format:check   # also the Husky pre-commit hook
 npm run lint           # htmlhint + stylelint + cspell; also lint:a11y, lint:links (build first)
 ```
 
-No tests. The pre-commit hook runs `format:check` and the three lints; add legitimate names to `cspell.json` `words` rather than editing copy. Node `24.22.2` per `.nvmrc`; `engines` is `>=24` with `engine-strict=true`.
+No tests. The pre-commit hook runs `format:check` and the three lints; add legitimate names to `cspell.json` `words` rather than editing copy. Node `26.13.0` per `.nvmrc`; `engines` is `>=26` with `engine-strict=true`.
 
 ## Structure
 
